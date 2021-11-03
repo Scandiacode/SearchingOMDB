@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Movie Mania!</h1>
+
+</div>
+
+<form method="post" asp-action="MovieSearch">
+    <div>
+        <label for="title">Click here to search for a Movie </label>
+        <input type="submit" />
+    </div>
+</form>
+<form method="post" asp-action="MovieNight">
+    <div>
+        <label for="Night"> Click here to seach for multiple Movies </label>
+        <input type="submit" />
+    </div>
+</form>
